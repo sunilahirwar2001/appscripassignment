@@ -1,0 +1,91 @@
+.main-content {
+    padding-bottom: 50px;
+  }
+  
+  .hero {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  
+  .hero-image {
+    flex: 0 0 50%;
+  }
+  
+  .hero-text {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    margin-bottom: 20px;
+  }
+  
+  .subscribe-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .subscribe-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .subscribe-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .about {
+    margin-bottom: 50px;
+  }
+  
+  .about h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .about p {
+    margin-bottom: 20px;
+  }
+  
+  .stories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .story-card {
+    width: 45%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .story-card img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .story-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .story-card p {
+    margin-bottom: 10px;
+  }
+  
+  .story-card a {
+    color: #333;
+    text:center;
+  }  

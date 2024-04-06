@@ -1,0 +1,133 @@
+
+
+.newsletter-section {
+  background-color: rgb(40,40,40); /* Change background color to black */
+  color: #fff; /* Change text color to white */
+padding: 25px;
+  display: flex;
+  flex-wrap: wrap; /* Ensure flex items wrap properly */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newsletter-content {
+  flex: 1; /* Take up remaining space */
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+}
+
+.newsletter-content h2 {
+  color: #fff; /* Change text color to white */
+  margin-bottom: 1rem;
+}
+
+.newsletter-form {
+  display: flex;
+  padding: 56px;
+  align-items: center;
+
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.newsletter-form input {
+/* Take up remaining space */
+  height: 2rem;
+  padding: 0 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.newsletter-form button {
+  width: 8rem;
+  height: 2rem;
+  background-color: #4caf50;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-left: 0.5rem; /* Add margin for spacing */
+}
+
+.currency-info {
+  flex: 1; /* Take up remaining space */
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 1rem; /* Add margin for spacing */
+}
+
+.currency-info span {
+  color: #fff; /* Change text color to white */
+  margin-bottom: 0.5rem;
+}
+
+
+   .footer {
+    background-color: rgb(40,40,40);
+    color: #fff;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+  }
+  
+  .footer-logo img {
+    width: 10rem;
+    height: auto;
+  }
+  
+ 
+
+  .footer-links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0.5rem 0; /* Add margin to create space above and below each link */
+    transition: color 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  .footer-links a:hover {
+    color: #ccc;
+  }
+  
+
+  
+  .footer-copyright {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .footer-copyright span {
+    color: #fff;
+  }
+  
+  .icons-logo{
+    font-size: 40px;
+  }
+  .third-data img{
+    padding: 4px;
+  }
